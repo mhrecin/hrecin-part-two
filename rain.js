@@ -12,15 +12,15 @@ let fertilizer = prompt("Did you use fertilizer?");
 if (fertilizer === "no") {
     if (rainfall > 20){
     bushels = bushels * .9;
-    console.log("The crop yields " + (bushels * .9) + " bushels per year");
+    console.log("The crop yields " + (bushels * .9) + " bushels per year")
     }
     if (rainfall < 10){
     bushels = bushels * .8;
-    console.log("The crop yields " + (bushels * .8) + " bushels per year");
+    console.log("The crop yields " + (bushels * .8) + " bushels per year")
     }
-    if (rainfall === 11){
+    if (rainfall == 11){
     bushels = bushels * 1;  
-    console.log("The crop yields " + (bushels * 1) + " bushels per year");  
+    console.log("The crop yields " + (bushels * 1) + " bushels per year")  
     }
 }
 
